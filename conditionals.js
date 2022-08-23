@@ -35,3 +35,19 @@ if (!raining) {
 }
 
 
+//Which school project from Compass
+
+const whichSchool  = function (age) {
+  switch (age) { 
+    case age < 13:
+      console.log("Elementry School")
+      break;
+    case age >= 13 && age <= 18:
+      console.log("Secondary School")
+      break;
+    default:
+      console.log("Lighthouse Labs")
+      break;
+  }
+}
+
